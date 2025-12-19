@@ -8,6 +8,8 @@
 This repository contains the implementation of the research paper *"Whispers in the Order Book: Simulating Asset Bubbles via LLM-Driven Narrative Propagation"*. We use **Large Language Models (LLMs)** as cognitive engines to simulate how psychological biases and narrative distortions propagate through social networks, leading to phenomena like flash crashes, bubbles, and post-truth markets.
 
 And also, its a part of my final project for the course **SEC352: An Introduction to FinTech** taught by Wanwan Liang(And if Ms Liang has seen this, hello!) at **University of International Business and Economics**.
+
+
 ---
 
 ## 🎯 Research Overview
@@ -212,6 +214,7 @@ r_t = \ln(P_{t+1}) - \ln(P_t) = \frac{1}{\mathcal{L}_t} \cdot (V_{\text{buy},t} 
 $$
 
 Where liquidity decays exponentially:
+
 $$
 \mathcal{L}_t = \mathcal{L}_0 \cdot e^{-\lambda \cdot \text{vol}_t}
 $$
