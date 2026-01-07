@@ -30,7 +30,7 @@ Traditional Agent-Based Models (ABMs) rely on hard-coded heuristics. We replace 
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     Gemini 2.5 Flash API                    │
+│                     Gemini 3.0 Flash API                    │
 │                  (Cognitive Decision Engine)                 │
 └────────────────────┬────────────────────────────────────────┘
                      │
@@ -131,7 +131,7 @@ G-ABM/
 │   └── ...
 ├── notebook/
 │   └── nb01_plot.ipynb   # Visualization & statistical analysis
-├── outputs/              # Simulation logs (CSV)
+├── data/              # Simulation logs (CSV)
 ├── .env                  # API credentials (not tracked)
 ├── requirements.txt
 └── README.md
