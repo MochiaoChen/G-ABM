@@ -16,7 +16,7 @@ def load_config(config_path):
 
 def run(config_path):
     cfg = load_config(config_path)
-    print(f"🚀 Starting Simulation: {cfg['scenario_name']}")
+    print(f"Starting Simulation: {cfg['scenario_name']}")
     
     # Init Components
     client = GeminiClient()
